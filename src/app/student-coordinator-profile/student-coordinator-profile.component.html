@@ -1,0 +1,52 @@
+
+
+<div  class="topnav">
+  <img src="https://rundschau-hd.de/wp-content/uploads/2016/10/Logo_SRH_HS_Heidelberg.svg_.jpg" class="logo" height="50px" width="50px"/>
+  <a class="active" href="#home">Home</a>
+  <a href="/newStudentCoordinatorProfile">StudentCoordinatorProfile</a>
+  <a href="/studentcoordinator" class="logout">Logout</a>
+</div>
+
+
+<div id="tabs">
+  <ul>
+    <!--<li><a href="#tabs1" (click)="personalInfo()">PersonalInfo</a></li>-->
+  </ul>
+</div>
+<div id="tabs-2">
+  <form>
+
+    <ul class="form-style1">
+
+      <li>
+
+        <div>
+          <label class="label">First Name:</label>
+        </div>
+        <div ng-repeat="let item of items">
+          <input class="font" id= "firstname"  />
+        </div>
+        <br>
+        <div>
+          <label class="label">Last Name:</label>
+        </div>
+        <div>
+          <input  class="font" id="lastname" type="text"  />
+        </div>
+        <br>
+        <div>
+          <label class="label">Mobile number:</label>
+        </div>
+        <div>
+          <input class="font" id="mobilenumber"  />
+        </div>
+        <br>
+        <div>
+          <label class="label">Emergency Contact:</label>
+        </div>
+        <div>
+          <input class="font" id="emergencycontact" type="date" />
+        </div>
+      </li></ul>
+  </form>
+</div>
